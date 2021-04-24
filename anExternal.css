@@ -1,0 +1,57 @@
+body {
+
+}
+
+p{
+    font-weight: normal;
+    color: black;
+    font-family: "Arial";
+}
+
+#Header{
+    width: 300px;
+    background-color: aqua;
+}
+
+#Header h1{
+    font-family: "Times New Roman";
+}
+
+#Paragraph1 h1{
+    font-weight: normal;
+    font-family: "Times New Roman";
+}
+
+#Paragraph1 h1{
+    font-weight: normal;
+    font-family: "Helvetica";
+}
+
+#container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#dotted{
+    border-style: dotted;    
+}
+
+#rcorners{
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
